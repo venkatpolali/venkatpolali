@@ -122,7 +122,7 @@
     owners = ["099720109477"]
   }
 
-  resource "aws_instance" "web" {
+  resource "aws_instance" "test_instance" {
     ami           = "ami-0182f373e66f89c85"
     instance_type = "t2.micro"
     depends_on = [aws_vpc.vpc]
