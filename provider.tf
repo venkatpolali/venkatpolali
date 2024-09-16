@@ -13,11 +13,11 @@ terraform {
       version = "6.2.0"
     }
     oci = {
-      source = "oracle/oci"
+      source  = "oracle/oci"
       version = "6.9.0"
     }
-     kubernetes = {
-      source = "hashicorp/kubernetes"
+    kubernetes = {
+      source  = "hashicorp/kubernetes"
       version = "2.32.0"
     }
   }
