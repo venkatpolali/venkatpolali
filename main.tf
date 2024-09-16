@@ -1,6 +1,5 @@
 provider "aws" {
   region = "us-east-1"
-  shared_credentials_files = ["C:\\Users\\w191397\\OneDrive - Worldline SA\\Documents\\Learn\\credentials"]
 }
 
 data "aws_availability_zones" "available" {}
