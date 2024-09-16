@@ -4,6 +4,7 @@ terraform {
       source  = "hashicorp/aws"
       version = "5.66.0"
     }
+}
 provider "aws" {
   region = "us-east-1"
   aws_access_key_id = "AKIAXDJ6EYUITOCJIL66"
