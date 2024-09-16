@@ -124,7 +124,7 @@
 
   resource "aws_instance" "web" {
     ami           = "ami-0182f373e66f89c85"
-    instance_type = "t2.medium"
+    instance_type = "t2.micro"
 
     subnet_id = aws_subnet.public_subnets["public_subnet_1"].id
 
