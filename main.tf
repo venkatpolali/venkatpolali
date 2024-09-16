@@ -125,6 +125,7 @@
   resource "aws_instance" "web" {
     ami           = "ami-0182f373e66f89c85"
     instance_type = "t2.micro"
+    depends_on = [aws_vpc.vpc]
 
     subnet_id = aws_subnet.public_subnets["public_subnet_1"].id
 
