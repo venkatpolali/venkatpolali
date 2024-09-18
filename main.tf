@@ -1,6 +1,5 @@
 provider "aws" {
   region = var.aws_region
-  shared_credentials_files = ["C:\\Users\\w191397\\OneDrive - Worldline SA\\Documents\\Learn\\test\\credentials"]
 }
 
 resource "aws_vpc" "my_vpc" {
