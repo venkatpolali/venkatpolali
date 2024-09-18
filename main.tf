@@ -1,7 +1,6 @@
 provider "aws" {
   region = "us-east-1"
-  aws_access_key_id = "AKIAXDJ6EYUITOCJIL66"
-  aws_secret_access_key = "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"
+
 }
 
 data "aws_availability_zones" "available" {}
